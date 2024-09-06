@@ -1,0 +1,12 @@
+services:
+  frontend:
+    build:
+      context: .
+    tty: true
+    volumes:
+      - ./frontend:/app
+    environment:
+      - WATCHPACK_POLLING=true
+    command: yarn run dev
+    ports:
+      - 3000:3000
