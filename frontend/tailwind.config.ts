@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      scrollBehavior: {
-        smooth: "smooth",
-      },
       colors: {
         body: "#050505",
         "selected-text": "#A3A3FF",
